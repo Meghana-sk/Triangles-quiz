@@ -4,7 +4,7 @@ const result = document.querySelector("#output");
 
 checkbtn.addEventListener("click",calculateScore);
 
-let correctAnswers = ["50°","Obtuse","30°","Equivlateral"]
+let correctAnswers = ["50°","Obtuse","30°","Equivlateral","Right-Angled"]
 
 function calculateScore() {
    let score = 0;
