@@ -8,7 +8,10 @@ checkbtn.addEventListener("click",calculateHypotenuse);
 function calculateHypotenuse() {
     const sideAVal = Number(sideA.value);
     const sideBVal = Number(sideB.value);
-    let hypotenuse = Math.sqrt((sideAVal*sideAVal) + (sideBVal*sideBVal));
-
+    if (sideAVal > 0 && sideBVal > 0) {
+    let hypotenuse = Math.sqrt((sideAVal*sideAVal) + (sideBVal*sideBVal)).toFixed(2);
     displayResult.innerText = "Hypotenuse is "+ hypotenuse;
+    } else {
+        displayResult.innerText = "Enter valid values for sides of triangle";
+    }
 }
