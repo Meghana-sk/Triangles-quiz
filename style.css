@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
+:root {
+  --tomato-color: tomato;
+  --header-footer-color: #7373e0;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -39,4 +44,28 @@ button {
 
 .sub-grp {
   margin-top: 0.8rem;
+}
+
+.social-media {
+  list-style-type: none;
+  display: inline;
+  margin-left: 30%;
+}
+
+li a {
+  text-decoration: none;
+}
+
+footer {
+  width: 80%;
+  margin: auto;
+  background-color: var(--tomato-color);
+  padding: 1rem;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+#footer-text {
+  text-align: center;
+  color: var(--header-footer-color);
 }
