@@ -55,34 +55,11 @@ button {
 li a {
   text-decoration: none;
 }
-/* 
-footer {
-  width: 80%;
-  margin: auto;
-  background-color: var(--tomato-color);
-  padding: 1rem;
-  border-radius: 10px;
-  font-weight: bold;
-} */
 
 #footer-text {
   text-align: center;
   color: var(--header-footer-color);
 }
-
-/* .social-media {
-  list-style-type: none;
-}
-
-li a {
-  text-decoration: none;
-  color: aliceblue;
-}
-
-li {
-  display: inline;
-  margin-left: 30%;
-} */
 
 footer {
   width: 80%;
